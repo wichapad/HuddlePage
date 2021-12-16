@@ -13,6 +13,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -192,7 +193,40 @@ body {
     width: 8rem;
   }
   .section {
+    width: 100%;
     margin: 0;
+    display: grid;
+  }
+
+  .section-img {
+    width: 80%;
+    padding: 4rem;
+    margin: 0 12%;
+  }
+
+  .section-text {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    max-width: 17rem;
+    margin: 0 25%;
     
+  }
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    
+  }
+  .text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    padding: 1.8rem 0;
+    margin: 0 auto; 
+  }
+  .footer {
+    margin: 0;
+    padding-right: 36%;
+    padding-top: 10%;
   }
 }
